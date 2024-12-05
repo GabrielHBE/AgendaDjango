@@ -34,6 +34,7 @@ def search(request):
     context = {
         'contacts':contacts,
         'title':'Contatos',
+        'search_value':search_value
     }
 
     return render(
